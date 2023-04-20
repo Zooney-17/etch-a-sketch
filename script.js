@@ -6,4 +6,7 @@ for (let i = 0; i <= 255; i++) {
     grid.style.height = '55px';
     grid.style.border = '1px solid black';
     gridContainer.appendChild(grid);
-}
+    grid.addEventListener('mouseover', () => {
+        grid.style.backgroundColor = 'black';
+    });
+};
